@@ -72,6 +72,7 @@
      (region ((t (:background "#444444"))))
      (mode-line ((t (:background "#303030" :foreground "black"))))
      (highlight ((t (:background "#935037"))))
+     (modeline ((t (:background "#000000" :foreground "#FFFFFF"))))
      (italic ((t (nil))))
      (left-margin ((t (nil))))
      (toolbar ((t (nil))))
