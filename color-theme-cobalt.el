@@ -71,6 +71,7 @@
      (gui-element ((t (:background "#303030" :foreground "black"))))
      (region ((t (:background "#444444"))))
      (highlight ((t (:background "#26425D"))))
+     (ecb-default-highlight-face ((t (:background "#26425D"))))
      (minibuffer-prompt ((t (:foreground "#008AFF"))))
      (show-paren-mismatch ((t (:background "#FF0000"))))
      (modeline ((t (:background "#111111" :foreground "#888888"))))
