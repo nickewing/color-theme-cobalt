@@ -8,7 +8,7 @@
 ;; (load-file "~/.emacs.d/themes/color-theme-cobalt.el")
 ;;
 ;; And then (color-theme-cobalt) to activate it.
-;; 
+;;
 ;; Created using Marcus Crafter's Twilight Theme for Emacs as a template.
 ;; http://github.com/crafterm/twilight-emacs/blob/master/color-theme-twilight.el
 
@@ -47,15 +47,11 @@
       (cursor-color . "#A7A7A7")
       (foreground-color . "#F8F8F8"))
      (default ((t (:background "#09223F" :foreground "white"))))
-     (blue ((t (:foreground "blue"))))
-     (bold ((t (:bold t))))
-     (bold-italic ((t (:bold t))))
-     (border-glyph ((t (nil))))
      (buffers-tab ((t (:background "#09223F" :foreground "white"))))
      (font-lock-builtin-face ((t (:foreground "#40FFB9"))))
      (font-lock-comment-face ((t (:foreground "#008AFF"))))
      (font-lock-constant-face ((t (:foreground "#FF518C"))))
-     (font-lockx-doc-string-face ((t (:foreground "#2387FC"))))
+     (font-lock-doc-face ((t (:foreground "#008AFF"))))
      (font-lock-function-name-face ((t (:foreground "#FFDD00"))))
      (font-lock-keyword-face ((t (:foreground "#FA9E18"))))
      (font-lock-preprocessor-face ((t (:foreground "#8090A2"))))
@@ -65,15 +61,17 @@
      (font-lock-string-face ((t (:foreground "#42D915"))))
      (font-lock-type-face ((t (:foreground "#FFEF79"))))
      (font-lock-variable-name-face ((t (:foreground "#CCCCCC"))))
-     (font-lock-warning-face ((t (:bold t :foreground "Pink"))))
+     (font-lock-warning-face ((t (:foreground "Pink"))))
      (hl-line ((t (:background "#00162A"))))
-     (linum ((t (:background "#111111" :foreground "#888888"))))
+     (linum ((t (:background "#111111" :foreground "#888888"
+                 :underline nil))))
      (gui-element ((t (:background "#303030" :foreground "black"))))
      (region ((t (:background "#444444"))))
      (highlight ((t (:background "#26425D"))))
+     (show-paren-match ((t (:background "#26425D"))))
+     (show-paren-mismatch ((t (:background "#FF0000"))))
      (ecb-default-highlight-face ((t (:background "#26425D"))))
      (minibuffer-prompt ((t (:foreground "#008AFF"))))
-     (show-paren-mismatch ((t (:background "#FF0000"))))
      (modeline ((t (:background "#111111" :foreground "#888888"))))
      (modeline-inactive ((t (:background "#222222" :foreground "#888888"))))
      (italic ((t (nil))))
@@ -81,4 +79,6 @@
      (toolbar ((t (nil))))
      (ido-subdir ((t (:foreground "#008AFF"))))
      (ido-only-match ((t (:foreground "#42D915"))))
+     (mumamo-background-chunk-major ((t (:background nil))))
+     (mumamo-background-chunk-submode1 ((t (:background nil))))
      (underline ((nil (:underline nil)))))))
