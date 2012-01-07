@@ -1,5 +1,10 @@
-;; Cobalt Color Theme for Emacs.
+;;; color-theme-cobalt.el --- Cobalt Color Theme for Emacs
 ;;
+;; Author: Nick Ewing
+;; URL: https://github.com/nickewing/color-theme-cobalt
+;; Version: 0.0.2
+;; Package-Requires: ((color-theme "6.6.1"))
+
 ;; Defines a colour scheme resembling that of the original TextMate Cobalt color theme.
 ;; To use add the following to your .emacs file (requires the color-theme package):
 ;;
@@ -8,7 +13,6 @@
 ;; (load-file "~/.emacs.d/themes/color-theme-cobalt.el")
 ;;
 ;; And then (color-theme-cobalt) to activate it.
-;;
 ;; Created using Marcus Crafter's Twilight Theme for Emacs as a template.
 ;; http://github.com/crafterm/twilight-emacs/blob/master/color-theme-twilight.el
 
@@ -82,3 +86,7 @@
      (mumamo-background-chunk-major ((t (:background nil))))
      (mumamo-background-chunk-submode1 ((t (:background nil))))
      (underline ((nil (:underline nil)))))))
+
+(provide 'color-theme-cobalt)
+
+;;; color-theme-cobalt.el ends here
